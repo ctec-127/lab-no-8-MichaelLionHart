@@ -11,7 +11,7 @@
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
             <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
                 <label for="temp">Temperature</label>
-                <input type="text" value="<?php if (isset($_POST['originaltemp'])) echo $_POST['originaltemp'];?>" name="originaltemp" size="7" maxlength="7" id="temp" class="form-control">
+                <input type="text" value="<?php if (isset($_POST['originaltemp'])) echo $_POST['originaltemp'];?>" name="originaltemp" size="7" maxlength="7" id="temp" class="form-control mb-3">
             </div>
             <div class="col-6">
             <label for="originalunit">Original Unit</label>
